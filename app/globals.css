@@ -6,7 +6,20 @@
   background-color: #3F3F3F;
   width: auto;
   height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(236, 236, 236);
+  position: relative;
 }
+
+.HyeJung {
+  font-size: 500%;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
 .topBar {
   display: flex;
   background-color: whitesmoke;
