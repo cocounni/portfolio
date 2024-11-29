@@ -22,11 +22,11 @@ export default function topBar ({ children }) {
     <html>
       <body>
         <div className="topBar">
-          <div className="frontend">Frontend Developer</div>
+          <Link href="/" div className="frontend">Frontend Developer</Link>
           <div className="folder">
             <div className="aboutMe">About Me</div>
             <Link href="/education" className="education">Education</Link>
-            <div className="skills">Skills</div>
+            <Link href="skills" className="skills">Skills</Link>
             <div className="project">Project</div>
             <div className="contact">Contact</div>
           </div>
