@@ -1,0 +1,49 @@
+.mainContent {
+    background-color: #3F3F3F;
+    color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainContent > :not(.title) {
+    margin:auto;
+}
+
+.title {
+    width: 100%;
+    height: fit-content;
+    font-size: 200%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.univContent, .kraftonContent, .dayoneContent {
+    display: flex;
+}
+
+.univLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.eduTitle, .expTitle {
+    font-size: 400%;
+}
+
+.experienceContent, .kraftonContent {
+    margin-top: 5%;
+}
+
+.univRight, .kraftonRight, .expRight {
+    margin-left: 10%;
+}
+
+.univLeft, .kraftonLeft, .expLeft{
+    width: 10%;
+}
+
+.sookmyung, .kraftonJungle, .dayone {
+    font-size: 150%;
+}

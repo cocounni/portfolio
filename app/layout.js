@@ -25,7 +25,7 @@ export default function topBar ({ children }) {
           <div className="frontend">Frontend Developer</div>
           <div className="folder">
             <div className="aboutMe">About Me</div>
-            <div className="aboutMe">Education</div>
+            <Link href="/education" className="education">Education</Link>
             <div className="skills">Skills</div>
             <div className="project">Project</div>
             <div className="contact">Contact</div>
